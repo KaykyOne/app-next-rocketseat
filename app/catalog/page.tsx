@@ -1,7 +1,12 @@
-import React from 'react'
+import ClientComponent from './clientComponent'
+import ServerComponet from './serverComponet'
 
 export default function Page() {
   return (
-    <div>P</div>
+    <div>
+      <ClientComponent>
+        <ServerComponet />
+      </ClientComponent>
+    </div>
   )
 }
